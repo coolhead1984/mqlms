@@ -15,7 +15,7 @@ The original browser-based Windows launcher remains available: double-click **La
 
 ### Download installers from GitHub
 
-GitHub Actions builds Windows and macOS installer packages when code is pushed to `main`. Open the repository's **Actions** tab, choose the latest successful **Build desktop installers** run, and download the Windows or macOS artifact. To publish permanent download links in a GitHub Release, create and push a version tag such as `v1.0.1`.
+GitHub Actions builds Windows and macOS installer packages when code is pushed to `main`. Open the repository's **Actions** tab, choose the latest successful **Build desktop installers** run, and download the Windows or macOS artifact. To publish permanent download links in a GitHub Release, create and push a version tag such as `v1.0.2`.
 
 The packages are currently unsigned. Windows may show a SmartScreen warning, and macOS may require approval in Privacy & Security before opening. Avoid downloading packages from untrusted sources. Platform signing/notarization can be added when organization-owned signing certificates are available; store signing credentials only as GitHub Actions secrets, never in the repository.
 
