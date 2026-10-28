@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "La Casa | Quote Studio",
+  "short_name": "Quote Studio",
+  "description": "Private, offline quotation management for La Casa Interiors.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
